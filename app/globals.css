@@ -42,7 +42,7 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  color: #fff;
   background: #111827;
 }
 

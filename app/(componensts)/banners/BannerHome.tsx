@@ -4,7 +4,7 @@ import { FaWhatsapp, FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa"
 
 export function BannerHome() {
     return (
-        <div className="min-h-screen w-full relative bg-background">
+        <div className="min-[900px] h-screen w-full relative bg-background">
             <div className="absolute bottom-0 right-0">
                 <img src="./vector.svg" alt="" />
             </div>
