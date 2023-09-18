@@ -3,7 +3,7 @@ import { FaCircle } from "react-icons/fa";
 
 export function CardExperience({ experience }: { experience: Experience }) {
     return (
-        <div className="h-[352px] flex gap-8">
+        <div className="lg:h-[352px] flex gap-8">
             <div className="flex flex-col h-full items-center">
                 <div className="w-14 h-14 p-2 rounded-full border border-white/10">
                     <img src={experience.image} alt="" className="object-contain w-full" />

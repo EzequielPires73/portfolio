@@ -7,8 +7,8 @@ import { FaArrowRight } from "react-icons/fa";
 export function CardProject({ project }: { project: Project }) {
     return (
         <>
-            <div className="flex gap-8 h-[304px]">
-                <div className="bg-card rounded-md w-[420px] h-full relative overflow-hidden">
+            <div className="flex flex-col lg:flex-row gap-8 lg:h-[304px]">
+                <div className="bg-card rounded-md w-full lg:w-[420px] h-full min-h-[264px] relative overflow-hidden">
                     <Image src={project.thumb} alt="" fill />
                 </div>
                 <div className="flex-1">

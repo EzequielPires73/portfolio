@@ -11,7 +11,7 @@ export function BannerProjects() {
                 <div className="w-[300px] h-[300px] rounded-full bg-primary/60 filter blur-[200px]" />
             </div>
             <div className="absolute top-0 left-0 w-full h-full">
-                <div className="w-full max-w-7xl mx-auto h-full flex justify-center items-center">
+                <div className="w-full max-w-7xl mx-auto px-3 xl:px-0 h-full flex justify-center items-center">
                     <div className="h-full flex flex-col items-center justify-center">
                         <span className="text-primary text-lg">../projetos</span>
                         <h1 className="text-white text-5xl font-semibold mt-2">Meus projetos</h1>
